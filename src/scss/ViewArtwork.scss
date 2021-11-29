@@ -1,0 +1,365 @@
+.artwork-root{
+width: 1500px;
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+}
+.art-body-left-img > img {
+    width: 611px;
+    height: 611px;
+}
+.art-body{
+    width: 80%;
+    margin-top: 116px;
+    display: flex;
+    flex-direction: row;
+}
+.art-body-right-content{
+    margin-left: 50px;
+}
+.art-body-right-content-title{
+    font-family: Saira;
+    margin-top: 15px;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 44px;
+    line-height: 100%;
+    color: #fff;
+}
+.art-body-right-content-content{
+    padding: 25px 32px 31px 44px;
+    border: 1.2px solid rgba(255, 255, 255, 0.3);
+    border-radius: 20px;
+    margin-top: 35px;
+    background-color: #1C1C25;
+    color: #fff;
+}
+.art-body-right-content-content > p{
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 30px;
+}
+.art-body-right-content-content > span{
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 28px;
+}
+.art-body-right-content-currentbid{
+    display: flex;
+    margin-top: 36px;
+}
+.ant-modal-mask{
+    background: rgba(5, 5, 7, 0.7);
+    backdrop-filter: blur(20px);
+}
+.currentbid{
+    width: 40%;
+    border-right: 1.02703px solid #0EDD95;
+}
+.currentbid_title, .auctionbid_title{
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16.4324px;
+    line-height: 25px;
+    color: #FDFDFD;
+    margin-bottom: 10.17px;
+}
+.currentbid_number{
+    font-family: Saira;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 39.027px;
+    line-height: 100%;
+    color: #FDFDFD;
+    margin-bottom: 12.2px;
+}
+.currentbid_value{
+    font-family: Poppins;
+    font-style: italic;
+    font-weight: normal;
+    font-size: 16.4324px;
+    color: #FDFDFD;
+    margin-bottom: 0;
+}
+.auctionbid{
+    width: 60%;
+    padding-left: 45.19px;
+}
+.auction-number-time{
+    font-family: Saira;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 39.027px;
+    line-height: 100%;
+    color: #FDFDFD;
+    width: 54px;
+    text-align: center;
+    height: 39px;
+}
+.auctionbid_number{
+    display: flex;
+}
+.auction-number-out-hrs{
+    margin-right: 39.14px;
+}
+.auction-number-unit{
+    font-family: Poppins;
+    font-style: italic;
+    font-weight: normal;
+    font-size: 16.4324px;
+    line-height: 25px;
+    color: #FDFDFD;
+    margin-top: 12px;
+}
+.art-body-right-content-btngroup{
+    display: flex;
+    margin: 10px 0 20px 0;
+}
+.art-body-right-content-btngroup-bidbtn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.bidbtn{
+    width: 180px;
+    height: 60px;
+    background: #0EDD95;
+    border-radius: 64.2517px;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 20px;
+    color: #040404;
+    display: flex;
+    justify-content: center;
+    cursor: pointer;
+    align-items: center;
+}
+.ant-modal-close-x{
+    display: none;
+}
+.offerbtn{
+    margin-left: 30px;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 20px;
+    text-align: center;
+    color: #FFFFFF;
+    display: flex;
+    width: 111px;
+    height: 30px;
+    border-bottom: 1px solid #fff;
+    // justify-content: center;
+    align-items: center;
+}
+.art-body-right-content-btngroup-out-offerbtn{
+    width: 180px;
+    height: 60px;
+    display: flex;
+    align-items: center;
+}
+.Modal-content{
+    margin-top: 30px;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 28px;
+    text-align: center;
+    color: #050507;
+    margin-bottom: 25px;
+}
+.Modal-connect{
+    margin: 50px 0 50px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 27px;
+    letter-spacing: 0.005em;
+    color: #919CAE;
+    p{
+        margin-right: 10px;
+        margin-bottom: 0;
+    }
+    img{
+        width: 13.5px;
+        height: 13.5px;
+    }
+
+}
+.Modal-title{
+    font-family: Saira;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 100%;
+    color: #050507;
+}
+.wallet-modal-root{
+    width: 500px;
+    padding: 0 30px 0 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    // border:1px solid red;
+}
+.Modal-board-fox{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 370px;
+    height: 70px;
+    left: 65px;
+    top: 197px;
+    background: #050507;
+    padding:26px 36px 26px 26px;
+    border-radius: 10px;
+    p{
+        display:flex;
+        justify-content: center;
+        align-items: center;
+        font-family: Saira;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 18px;
+        line-height: 100%;
+        margin-bottom: 0;
+        color: #FFFFFF;
+    }
+    img{
+        width: 34px;
+        height: 29px;
+    }
+}
+.Modal-board-wifi{
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 370px;
+    height: 70px;
+    left: 65px;
+    top: 197px;
+    background: #050507;
+    padding:26px 36px 26px 26px;
+    border-radius: 10px;
+    p{
+        display:flex;
+        justify-content: center;
+        align-items: center;
+        font-family: Saira;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 18px;
+        line-height: 100%;
+        margin-bottom: 0;
+        color: #FFFFFF;
+    }
+    img{
+        width: 34px;
+        height: 29px;
+    }
+}
+.Modal-close-mark{
+    margin-left:  90%;
+    cursor: pointer;
+}
+.ant-modal-content{
+    border-radius: 20px !important;
+}
+.Modal-tag{
+    margin-top: 10vh;
+}
+@media screen and (max-width:1370px){
+    .art-body{
+        flex-direction: column !important;
+        justify-content: center !important;
+        align-items: center !important;
+    }   
+    .art-body-right-content{
+        margin-left: 0px !important;
+    }
+    .art-body-right-content-title{
+        text-align: center !important;
+    }
+    .art-body-right-content-currentbid{
+        text-align: center !important;
+    }
+    .auctionbid_number{
+        display: flex !important;
+        justify-content: center !important;
+    }
+    .art-body-right-content-btngroup{
+        display: flex !important;
+        justify-content: center !important;
+    }
+}
+@media screen and (max-width:670px){
+    .art-body-left-img > img{
+        width: 350px !important;
+        height: 350px !important;
+    }
+    .art-body-right-content-content{
+        width: 80% !important;
+    }
+    .art-body-right-content{
+        display: flex !important;
+        flex-direction: column !important;
+        align-items: center !important;
+    }
+}
+@media screen and (max-width:520px){
+    .Modal-content{
+        margin-top: 0 !important;
+    }
+    .art-body-left-img > img{
+        width: 300px !important;
+        height: 300px !important;
+    }
+    .art-body-right-content-content{
+        width: 80% !important;
+    }
+    .art-body-right-content-title{
+        font-size: 30px !important;
+    }
+    .art-body-right-content{
+        display: flex !important;
+        flex-direction: column !important;
+        align-items: center !important;
+    }
+    .auction-number-out-hrs{
+        margin-right: 10px !important;
+    }
+    .Modal-close-mark{
+        padding-left:90% !important;
+        margin: 0 !important;
+        width: 100% !important;   
+    }
+    .ant-modal-body{
+        padding:20px 0 0 0 !important;
+        position: relative;
+    }
+    .wallet-modal-root{
+        width: 100% !important;
+    }
+
+}
+@media screen and (max-width:430px){
+    .Modal-board-fox, .Modal-board-wifi{
+        width: 100% !important;
+    }
+}

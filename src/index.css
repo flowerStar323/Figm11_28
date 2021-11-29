@@ -1,0 +1,28 @@
+@font-face {
+    font-family: 'Saira';
+    src: url('./assets/fonts/Saira/static/Saira/Saira-Regular.ttf');
+}
+@font-face {
+    font-family: 'Montserrat';
+    src: url('./assets/fonts/Montserrat/Montserrat-Regular.ttf');
+}
+@font-face {
+    font-family: 'Poppins';
+    src: url('./assets/fonts/Poppins/Poppins-Regular.ttf');
+}
+@font-face {
+    font-family: 'Gluten';
+    src: url('./assets/fonts/Gluten/static/Gluten-Regular.ttf');
+}
+@font-face {
+    font-family: 'ITC Garamond Std';
+    src: url('./assets/fonts/ITCGaramondStd/ITCGaramondStd-LtNarrow.otf');
+}
+@font-face {
+    font-family: 'W95FA';
+    src: url('./assets/fonts/w95fa/W95FA.otf');
+}
+@font-face {
+    font-family: 'Helvetica';
+    src: url('http://fonts.cdnfonts.com/css/helvetica-neue-9');
+}

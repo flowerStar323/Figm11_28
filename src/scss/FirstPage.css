@@ -1,0 +1,594 @@
+.First-root{
+    width: 1440px;
+    display: flex;
+    position: relative;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+ }
+ .MobileGhost1, .MobileGhost2{
+     display: none;
+ }
+ .Container{
+     margin-top: 210px;
+     box-shadow: rgba(31,137,97) 0px 24px 55px, rgba(31,137,97) 0px -12px 30px, rgba(31,137,97) 0px 4px 6px, rgba(31,137,97) 0px 12px 13px, rgba(31,137,97) 0px -3px 5px;
+ }
+ #G1{
+     position: absolute;
+     top: 30px;
+     left: calc(50% - 580px);
+ }
+ #G2{
+    position: absolute;
+    top: 330px;
+    left: calc(50% + 370px);
+}
+#G4{
+    position: absolute;
+    top: 700px;
+    left: calc(50% - 530px);
+}
+#G3{
+    position: absolute;
+    top: -70px;
+    left: calc(50% + 230px);
+}
+#G5{
+    position: absolute;
+    top: 20px;
+    left: calc(50% - 580px);
+}
+ .mainImg{
+     position: absolute;
+     height: 710px;
+     width: 100%;
+     top: 0;
+     left: 0;
+     z-index: -1;
+    background-image: url(../assets/img/mainImg.png);
+    background-repeat: no-repeat;   
+    background-size: cover;
+    background-position: center;
+ }
+ .WindowGhosty{
+     width: 416px;
+     height: 198px;
+     display: flex;
+     flex-direction: column;
+     padding: 4px 6px 0 4px;
+     align-items: center;
+     background: #C3C3C3;
+     box-shadow: inset -2px -2px 0px #262626, inset 2px 2px 0px #F0F0F0, inset -4px -4px 0px #7E7E7E;
+ }
+ .WindowHeader{
+     width: 406px;
+     height: 25px;
+     background-color: #02007F;
+     display: flex;
+     padding:0 4px 0 8px;
+     justify-content: space-between;
+     align-items: center;
+ }
+ .WallterTitle{
+    font-family: W95FA;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 13px;
+    line-height: 12px;
+    color: #FFFFFF;
+ }
+ .WalletMainText{
+    font-family: W95FA;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 13px;
+    line-height: 26px;
+    color: #000000;
+    margin: 37px 0 24px 0;
+ }
+ .walletBtn{
+     width: 274px;
+     position: relative;
+     height: 51px;
+    background: #C3C3C3;
+    box-shadow: inset -2px -2px 0px #4A5A6B, inset 2px 2px 0px #ADB5C6, inset 4px 4px 0px #E6E6E6, inset -2px -2px 0px #4A5A6B, inset -4px -4px 0px #7B8494;
+ }
+ .walletBtnOnf{
+     position: absolute;
+     left: 7px;
+ }
+ .walletBtnText{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Helvetica;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 18px;
+    letter-spacing: 0.04em;
+    height: 100%;
+    text-transform: uppercase;
+    color: #000000;
+ }
+ .walletBtnText > img {
+    margin-left: 20px;
+
+ }
+ .GhostyGroup{
+     display: flex;
+     width: 700px;
+     justify-content: space-between;
+     margin-top: 120px;
+ }
+ .GhostyGroup > .Ghosty1{
+    margin-top: 85px;
+
+ }
+ .GhostyGroup > .Ghosty2{
+    margin-top: 70px;
+     
+}
+.GhostyGroup > .Ghosty3{
+    margin-top: 85px;
+     
+}
+.GhostyGroup > .Ghosty4{
+    margin-top: 100px;
+     
+}
+ .Ghosties{
+    width: 100%;
+    margin-top: -235px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+ }
+ .whatGhosties{
+    font-style: normal;
+    font-weight: bold;
+    font-size: 40px;
+    line-height: 48px;
+    letter-spacing: -0.02em;
+    font-family: ITC Garamond Std;
+    color: #FFFFFF;   
+    width: 100%;
+ }
+ .FirstCategory{
+     background: #655C67;
+     width: 100%;
+     display: flex;
+     position: relative;
+     flex-direction: column;
+     align-items: center;
+ }
+ .GhostiesMainInside{
+    width: 640px;
+    display: flex;
+    margin-top: 54px;
+}
+.WhatImg1, .WhatImg2{
+    display: flex;
+}
+#Artwork6, #Artwork9{
+    margin-left: 31px;
+}
+.WhatImg1{
+    margin-bottom: 40px;
+}
+.whatGhostiesContent{
+    font-size: 16px;
+    letter-spacing: -0.02em;
+    color: #FFFFFF;
+}
+.GhostiesMainInsideLeft{
+    margin-right: 19px;
+}
+.whatGhostiesContent1, .whatGhostiesContent2, .whatGhostiesContent3{
+    margin-top: 15px;
+    font-family: Helvetica;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 140%;
+}
+.communityContentOut{
+    width: 640px;
+}
+.communityContent{
+    width: 100%;
+    text-align: center;
+    margin-top: 72px;
+}
+.communityContentTitle{
+    font-family: ITC Garamond Std;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 40px;
+    line-height: 48px;
+    text-align: center;
+    letter-spacing: -0.02em;
+    color: #FFFFFF; 
+}
+.communityContent1, .communityContent2, .communityContent3, .communityContent4{
+    margin-top: 15px;
+    color: #FFFFFF; 
+    font-family: Helvetica;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 140%;
+}
+.VisionContentOut{
+    width: 640px;
+}
+.VisionContent{
+    width: 100%;
+    margin: 64px 0 100px 0;
+}
+.VisionContentTitle{
+    font-family: ITC Garamond Std;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 40px;
+    line-height: 48px;
+    letter-spacing: -0.02em;
+    color: #FFFFFF;
+}
+.VisionContent1, .VisionContent2{
+    margin-top: 15px;
+    color: #fff;
+    font-family: Helvetica;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 140%;
+    
+}
+.FAQOut{
+    background-color: #5F696C;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    position: relative;
+}
+.FAQContent{
+    width: 640px;
+}
+.MobileFAQ{
+    width: 640px;
+}
+.FAQTitle{
+    font-family: ITC Garamond Std;
+    font-style: normal;
+    font-weight: bold;
+    margin-top: 20px;
+    font-size: 40px;
+    letter-spacing: -0.02em;
+    color: #FFFFFF;
+}
+.FAQTttle1,.FAQTttle2,.FAQTttle3,.FAQTttle4{
+    font-family: ITC Garamond Std;
+    font-style: normal;
+    font-weight: bold;
+    margin: 10px 0;
+    font-size: 24px;
+    letter-spacing: -0.02em;
+    color: #FFFFFF;
+}
+.FAQContent3{
+    margin-top: 20px;
+}
+.FAQContent1,.FAQContent2,.FAQContent3,.FAQContent4,.FAQContent5{
+    color: #FFFFFF;
+    font-family: Helvetica;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 140%;
+}
+.FAQContent5{
+    margin-bottom: 50px;
+
+}
+.MeetTeamOut{
+    position: relative;
+    width: 100%;
+    background-color: #423844;
+    display: flex;
+    height: 1000px;
+    justify-content: center;
+}
+.MeetTeam{
+    width: 640px;
+    margin-top: 46px;
+}
+.MeetTitle{
+    font-family: ITC Garamond Std;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 40px;
+    line-height: 48px;
+    color: white;
+    text-align: center;
+    letter-spacing: -0.02em;
+}
+.TeamMember{
+    display: flex;
+    justify-content: space-around;
+    margin: 70px 0;
+}
+.TeamMember1Out{
+    display: flex;
+}
+.TeamMember1Right{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: ITC Garamond Std;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 29px;
+    letter-spacing: -0.02em;
+    color: #FFFFFF;
+   
+}
+.TeamMember1Right >  img{
+    margin-bottom: 20px;
+}
+.TeamMember1Left{
+    display: flex;
+    padding-bottom: 5px;
+    margin-right: 11px;
+    flex-direction: column;
+    align-items: center;
+    justify-content: end;
+}
+.Gho2021{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.Gho2021Left{
+    font-family: Gluten;
+font-style: normal;
+font-weight: 600;
+font-size: 30px;
+line-height: 26px;
+letter-spacing: -0.02em;
+display: flex;
+color: #FFFFFF;
+margin-right: 14px;
+}
+.Gho2021Right{
+    font-family: ITC Garamond Std;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    color: white;
+    line-height: 120%;
+    text-align: center;
+}
+.TabletYear{
+    display: none;
+    width: 100%;
+    font-family: ITC Garamond Std;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    background-color: #423844;
+    color: white;
+    line-height: 120%;
+    text-align: center;
+}
+.GhoFooterMiddle{
+    font-family: ITC Garamond Std;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 120%;
+    text-align: center;
+    color: #FFFFFF;
+    display: flex;
+    width: 300px;
+    justify-content: space-between;
+}
+.GhoFooter{
+    width: 100%;
+    display: flex;
+    background-color: #423844;
+    padding: 0 20px 10px 20px;
+    justify-content: space-between;
+}
+.GhoFooterRight{
+    width: 250px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+@media screen and (max-width:1100px){
+    .GhostyGroup{
+        display: none !important;
+    }
+    .FirstCategory{
+        margin-top: 470px !important;
+    }
+    #G4, #G5{
+       display: none !important; 
+    }
+    #G1{
+        top: 400px !important;
+        width: 400px !important;
+        left: calc(50% - 500px) !important;
+    }
+    .communityContentOut{
+        display: flex !important;
+        justify-content: right !important;
+    }
+    .MobileFAQ{
+        display: flex !important;
+        flex-direction: column !important;
+        align-items: end !important;
+    }
+    .VisionContentOut{
+        display: flex !important;
+        justify-content: left !important;
+    }
+    .communityContent,.VisionContent{
+        width: 70% !important;
+    }
+    #G2{
+        top: 850px !important;
+        width: 300px !important;
+        left: calc(50% + 170px) !important;
+    }
+    #G3{
+        transform: scaleX(-1) !important;
+        top: -70px !important;
+        width: 900px !important;
+        left: calc(50% - 700px) !important;
+    }
+    .FAQTitle{
+        text-align: center !important;
+    }
+    .FAQTttle1, .FAQContent1, .FAQTttle2, .FAQContent2, .FAQContent3{
+        width: 60% !important;
+        text-align: center !important;
+    }
+    .FAQTttle3{
+        margin-top: 70px !important;
+    }
+    .FAQTttle3, .FAQContent4, .FAQTttle4, .FAQContent5{
+        text-align: center !important;
+    }
+    .MeetTeamOut{
+        height: 650px !important;
+    }
+    .TabletYear{
+        display: block !important;
+    }
+    .Gho2021Right{
+        display: none !important;
+    }
+    .GhoFooterRight{
+        width: 200px !important;
+    }
+}
+@media screen and (max-width:720px){
+    .GhostiesMainInside{
+        flex-direction: column !important;
+    }
+    .GhostiesMainInsideRight{
+        order: 1 !important;
+        display: flex  !important;
+        flex-direction: column !important;
+        align-items: center !important;
+    }
+    .GhostiesMainInsideLeft{
+        order: 2 !important;
+        margin-top: 40px !important;
+    }
+    .GhostiesMainInsideLeft{
+        padding-left: 130px !important;
+        width: 90%;
+    }
+    #G1, #G2{
+        display: none !important;
+    }
+    .MobileGhost1{
+        display: block !important;
+        display: flex !important;
+        width: 100% !important;
+        justify-content: center !important;
+        margin-top: 70px !important;
+    }
+    .communityContentOut{
+        justify-content: left !important;
+    }
+    .communityContent{
+        text-align: left !important;
+        width: 90%  !important;
+        padding-left: 130px !important;
+    }
+    .communityContentTitle{
+        text-align: left !important;
+    }
+    .communityContent{
+        margin-top: 10px !important;
+    }
+    .MobileGhost2{
+        display: block !important;
+        display: flex !important;
+        margin-top: 70px !important;
+    }
+    .VisionContentOut{
+        justify-content: left !important;
+    }
+    .VisionContent{
+        margin-top: 10px !important;
+        text-align: left !important;
+        width: 90%  !important;
+        padding-left: 130px !important;
+    }
+    #G3{
+        transform: scaleX(-1) !important;
+        top: -30px !important;
+        width: 300px !important;
+        left: calc(50% - 280px) !important;
+    }
+    .FAQTitle{
+        margin: 50px 0 77px 0 !important;
+    }
+    .MobileFAQ{
+        align-items: flex-start !important;
+    }
+    .FAQTttle1, .FAQContent1, .FAQTttle2, .FAQContent2, .FAQContent3 {
+        text-align: left !important;
+        padding-left: 130px !important;
+        width: 90% !important;
+    }
+    .GhoFooterMiddle{
+        display: none !important;
+    }
+    .FAQTttle3, .FAQContent4, .FAQTttle4, .FAQContent5 {
+        text-align: left !important;
+        padding-left: 130px !important;
+        width: 90% !important;
+    }
+    .TeamMember{
+        width: 70% !important;
+        margin: 30px 0 !important;
+    }
+    .TeamMemberOut{
+        display: flex !important;
+        justify-content: center !important;
+    }
+    @media screen and (max-width:600px){
+        .GhoFooter{
+            padding: 0 80px 10px 80px !important;
+        }
+        .GhostiesMainInsideLeft, .communityContent, .VisionContent , .FAQTttle1, .FAQContent1, .FAQTttle2, .FAQContent2, .FAQContent3, .FAQTttle3, .FAQContent4, .FAQTttle4, .FAQContent5 {
+            width: 80% !important;
+        }
+    }
+    @media screen and (max-width:500px){
+        .GhoFooter{
+            padding: 0 120px 10px 120px !important;
+        }
+        .WindowGhosty {
+            width: 350px !important;
+            height: 175px !important;
+        }
+        .WindowHeader {
+            width: 342px !important;
+        }
+        .walletBtnText{
+            font-size: 15px !important;
+        }
+        .walletBtn {
+            width: 235px !important;
+            height: 45px !important;
+        }
+    }
+}
